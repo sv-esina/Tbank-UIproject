@@ -12,19 +12,16 @@ import org.aeonbits.owner.Config;
 public interface WebDriverConfig extends Config {
 
     @Key("baseUrl")
-//    @DefaultValue("https://www.tbank.ru/")
+    @DefaultValue("https://www.tbank.ru/")
     String getBaseUrl();
 
     @Key("browser")
-    @DefaultValue("chrome")
     String getBrowser();
 
     @Key("browserVersion")
-    @DefaultValue("147")
     String getBrowserVersion();
 
     @Key("browserSize")
-    @DefaultValue("1920x1024")
     String getBrowserSize();
 
     @Key("isRemote")
