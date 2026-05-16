@@ -122,6 +122,7 @@ https://github.com/user-attachments/assets/5099644b-b58f-4c3e-b6c5-0b441caa3ad7
 
 ### Тест-кейсы
 > В разеделе Тест-кейсы представлен список автоматизированных и ручных тестов, реализованных в рамках проекта
+
 ![TestOps-Tests.png](media/screenshots/TestOps-Tests.png)
 
 ---

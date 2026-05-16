@@ -16,7 +16,7 @@ import pages.MainPage;
 import static data.TestData.VACANCY_NAME;
 
 @Owner("Esina Svetlana")
-@DisplayName("Проверяем работу продуктов на сайте ВТБ ТБанк")
+@DisplayName("Проверяем работу продуктов на сайте Т-Банк")
 public class UITbankTests extends TestBase{
 
     MainPage mainPage = new MainPage();
