@@ -28,7 +28,7 @@ public class UITbankTests extends TestBase{
     @Tags({@Tag("UI"), @Tag("login")})
     @Severity(SeverityLevel.BLOCKER)
     @Story("Реализовать авторизацию пользователя в личном кабинете")
-    @DisplayName("Вход в личный кабинет банка")
+    @DisplayName("Переход на страницу авторизации в Личный кабинет")
     public void openLoginPage() {
         mainPage.openMainPage()
                 .hoverLoginButton()
