@@ -51,7 +51,7 @@
 - В качестве фреймворка модульного тестирования использован <code>JUnit 5</code>.
 - Для прогона тестов в браузере используется [Selenoid](https://aerokube.com/selenoid/).
 - Для удаленного запуска тестов реализована джоба в [Jenkins](https://www.jenkins.io/).
-- Реализовано формирование [Allure-отчета](https://jenkins.autotests.cloud/view/java_students/job/SvetlanaV_Esina-Jenkins_first-project/26/allure/) с отправкой результатов прогона тестов в <code>Telegram</code> при помощи бота.
+- Реализовано формирование [Allure-отчета](https://allurereport.org/) с отправкой результатов прогона тестов в <code>Telegram</code> при помощи бота.
 - В проекте так же задействована интеграция с [Allure TestOps](https://qameta.io/) и [Jira](https://www.atlassian.com/software/jira).
 
 ---
