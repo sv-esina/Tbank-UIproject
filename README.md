@@ -1,4 +1,8 @@
-# Демо-проект по автоматизации тестовых сценариев для сайта [T-Bank](https://www.tbank.ru/)
+<p align="center">
+  <img src="media/icons/T-Bank_RU_logo.svg.png" width="500" height="170"/>
+</p>
+<h1 align="center">Демо-проект по автоматизации тестовых сценариев для сайта <a href="https://www.tbank.ru/" target="_blank">Т-Банк</a> 
+</h1>
 
 ---
 ## :clipboard: Содержание:
@@ -129,9 +133,11 @@ https://github.com/user-attachments/assets/5099644b-b58f-4c3e-b6c5-0b441caa3ad7
 
 ## **Интеграция с Jira:**
 
-> Реализована интеграция Allure TestOps с Jira. В задаче отображен список связанных тестов и результаты их прогонов.
-
+> Реализована интеграция Allure TestOps с Jira. 
+> В задаче отображен список связанных ручных и автоматизированных тестов и результаты их прогонов.
 ![Jira-Integration.png](media/screenshots/Jira-Integration.png)
+
+![Jira-T-launches.png](media/screenshots/Jira-T-launches.png)
 
 ---
 
