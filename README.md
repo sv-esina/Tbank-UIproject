@@ -1,7 +1,7 @@
 <p align="center">
   <img src="media/icons/T-Bank_RU_logo.svg.png" width="500" height="170"/>
 </p>
-<h1 align="center">Демо-проект по автоматизации тестовых сценариев для сайта <a href="https://www.tbank.ru/" target="_blank">Т-Банк</a> 
+<h1 align="center">Демо-проект по автоматизации тестовых сценариев UI для сайта <a href="https://www.tbank.ru/" target="_blank">Т-Банк</a> 
 </h1>
 
 ---
