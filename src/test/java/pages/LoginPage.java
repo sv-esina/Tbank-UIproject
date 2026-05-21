@@ -8,6 +8,7 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.title;
 import static data.TestData.ERROR_MESSAGE;
+import static data.TestData.MAIN_TITLE;
 
 public class LoginPage {
 
@@ -49,7 +50,7 @@ public class LoginPage {
     @Step("Нажимаем кнопку 'Закрыть страницу'")
     public LoginPage closeLoginPage() {
         closeLoginPage.click();
-        title().contains("Т-Банк");
+        title().contains(MAIN_TITLE);
         return this;
     }
 }

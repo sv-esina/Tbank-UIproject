@@ -13,9 +13,10 @@ public class DebitCardsPage {
     public static String debitPageUrl = "https://www.tbank.ru/cards/debit-cards/";
 
     private final SelenideElement
-            registerCard = $(".dbpdxUkSV"),
-            debitCardBlackForm = $(".abs4hOilo"),
-            scroll = $(".sbJv9gnBs"),
+            slideLink = $(".db1NlKupP"),
+            registerCard = $(".bbeb9PsNQ"),
+            debitCardBlackForm = $(".abnZHtPHL"),
+            scroll = $("[data-field-name=fio]"),
             submitButton = $("[data-field-name=submit]"),
             fioError = $("#fio-error"),
             phoneMobileError = $("#phone_mobile-error"),
@@ -38,7 +39,9 @@ public class DebitCardsPage {
 
     @Step("Нажимаем кнопку Оформить карту")
     public DebitCardsPage clickRegisterCard() {
-        registerCard.hover()
+        slideLink.click();
+        registerCard.shouldBe(visible)
+//                    .hover()
                     .click();
         debitCardBlackForm.shouldBe(visible);
         return this;

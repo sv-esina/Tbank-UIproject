@@ -15,7 +15,7 @@ public class JobPage {
     public static String careerUrl = "https://www.tbank.ru/career/";
 
     private final SelenideElement
-            vacancyButton = $(".abgym8TjG.bbgym8TjG"),
+            vacancyButton = $("[data-item-name='Смотреть вакансии']"),
             vacancyTitle = $(".Title__title_auiqXl"),
             vacancyInput = $(".input-box--module__layer_b3efnB.input-box--module__layer_stack_r3efnB.input-box--module__field_e3efnB"),
             noVacancy = $(".block-status-desktop--module__title_cQnQ6x");
