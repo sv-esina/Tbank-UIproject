@@ -155,4 +155,4 @@ https://github.com/user-attachments/assets/5099644b-b58f-4c3e-b6c5-0b441caa3ad7
 > По завершению сборки в чат Telegram автоматически направляется уведомление с результатом прогона тестов. 
 > Из уведомления возможен переход в Allure Report по указанной ссылке.
 
-![Telegram-notif.png](media/screenshots/Telegram-notif.png)
+<img width="50%" title="TelegramBot" src="media/screenshots/Telegram-notif.png">
