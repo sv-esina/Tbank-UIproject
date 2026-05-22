@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="media/icons/T-Bank_RU_logo.svg.png" width="500" height="170"/>
+  <img src="media/icons/T-Bank_RU_logo.svg.png" width="500" h
+eight="170"/>
 </p>
 <h1 align="center">Демо-проект по автоматизации тестовых сценариев UI для сайта <a href="https://www.tbank.ru/" target="_blank">Т-Банк</a> 
 </h1>
@@ -17,6 +18,7 @@
 - [Интеграция с Allure TestOps](#интеграция-с-allure-testops)
   - [Дашборд](#дашборд)
   - [Тест-кейсы](#тест-кейсы)
+  - [Запуски](#запуски)
 - [Интеграция с Jira](#интеграция-с-jira)
 - [Уведомление в Telegram](#уведомление-в-telegram-с-использованием-чат-бота)
 
@@ -61,7 +63,7 @@
 
 ---
 
-## **Сборка в Jenkins:**
+## **Сборка в [Jenkins](https://jenkins.autotests.cloud/view/java_students/job/Esina-Tbank-UI-Project/)**
 
 ![Jenkins-Main.png](media/screenshots/Jenkins-Main.png)
 
@@ -90,7 +92,7 @@ test
 
 ---
 
-## **Allure-отчет:**
+## **[Allure-отчет](https://jenkins.autotests.cloud/view/java_students/job/Esina-Tbank-UI-Project/15/allure/)**
 ### Overview
 
 > Главная страница отчета, которая содержит общую информацию о прохождении тестов:
@@ -115,7 +117,7 @@ https://github.com/user-attachments/assets/5099644b-b58f-4c3e-b6c5-0b441caa3ad7
 
 ---
 
-## **Интеграция с Allure TestOps:**
+## **Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/5203/test-cases?treeId=10171)**
 
 > Реализована интеграция сборки Jenkins с Allure TestOps. 
 
@@ -130,10 +132,16 @@ https://github.com/user-attachments/assets/5099644b-b58f-4c3e-b6c5-0b441caa3ad7
 
 ![TestOps-Test cases.png](media/screenshots/TestOps-Test%20cases.png)
 
+### Запуски
+>В разеделе Запуски имеется возможность детального просмотра и анализа прогона тестов
+
+![Запуски.png](media/screenshots/%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B8.png)
+
+![Результаты запуска.png](media/screenshots/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D1%8B%20%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0.png)
 
 ---
 
-## **Интеграция с Jira:**
+## **Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-1603)**
 
 > Реализована интеграция Allure TestOps с Jira. 
 > В задаче отображен список связанных ручных и автоматизированных тестов и результаты их прогонов.
