@@ -41,7 +41,6 @@ public class DebitCardsPage {
     public DebitCardsPage clickRegisterCard() {
         slideLink.click();
         registerCard.shouldBe(visible)
-//                    .hover()
                     .click();
         debitCardBlackForm.shouldBe(visible);
         return this;
